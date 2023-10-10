@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #34353b;
+}
+
+header {
+  height: 100vh;
+  padding: 36px 100px;
+  background-image: url(asset/model_bw.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-color: rgba(52, 53, 59, 0.7); /* Transparent background color */
+  backdrop-filter: blur(10px); /* Optional: Adds a blur effect to the transparent background */
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 90%;
+  z-index: 99;
+  background-color: transparent; /* Make the navbar transparent */
+}
+
+/* ... (other styles remain unchanged) ... */
+          
+
+header nav img {
+  height: 56px;
+  width: 56px;
+  object-fit: contain;
+  filter: invert(70%) sepia(96%) saturate(558%) hue-rotate(359deg)
+    brightness(103%) contrast(106%);
+  transition: filter 0.5s ease; /* Smooth filter transition */
+}
+
+header nav img:hover {
+  filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg)
+    brightness(100%) contrast(100%); /* Adjust filter on hover */
+}
+
+/* Navigation Link Styles */
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  margin: 0px 20px;
+}
+
+header nav ul li a {
+  color: #98999a;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+header nav ul li a:hover {
+  color: #fbfbfb;
+  transform: translateY(-3px); /* Move the element slightly upwards on hover */
+}
+
+header nav ul li .active {
+  color: #fbfbfb;
+}
+
+/* Search Bar Styles */
+header nav .search {
+  height: 48px;
+  width: 200px;
+  background-color: #3d3e42;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+}
+
+header nav .search input {
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  color: #fbfbfb;
+  outline: none;
+}
+
+header nav .search input:focus::placeholder {
+  color: #fbfbfb;
+}
+
+header nav .search i {
+  color: #98999a;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+header nav .search i:hover {
+  transform: scale(1.2);
+}
+
+header nav .search:hover {
+  background-color: #48494f;
+}
+
+/* Landing Section Styles */
+.landing {
+  display: flex;
+  height: 90vh;
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing .intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing .intro h3 {
+  color: #fbfbfb;
+  font-weight: 400;
+  font-size: 32px;
+  margin-left: 10vw;
+  transition: color 0.5s ease;
+}
+
+.landing .intro h3 span {
+  color: #fec86a;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.intro button {
+  height: 48px;
+  width: 144px;
+  margin-top: 2.5vh;
+  margin-left: 10vw;
+  background-color: transparent;
+  border: 2px solid #fec86a;
+  border-radius: 8px;
+  color: #fec86a;
+  font-size: 16px;
+  transition: all ease 0.5s;
+}
+
+.intro button:hover {
+  background-color: #fec86a;
+  color: #34353b;
+  transform: scale(1.05); /* Enlarge the button on hover */
+}
+
+/* Social Icons Styles */
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 50vh;
+}
+
+.socials .line {
+  background-color: #fec86a;
+  height: 15vh;
+  width: 2.5px;
+}
+
+.socials i {
+  color: #fbfbfb;
+  font-size: 36px;
+  transition: transform 0.5s ease;
+}
+
+.socials i:hover {
+  transform: scale(1.2);
+}
+
+/* About Section Styles */
+.about {
+  height: 50vh;
+  width: 100vw;
+  padding: 100px;
+}
+
+.about h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+}
+
+.about .description {
+  display: flex;
+  align-items: start;
+}
+
+.about .description .line {
+  height: 2.5px;
+  width: 400px;
+  background-color: #fec86a;
+  margin-right: 32px;
+}
+
+.about .description p {
+  color: #fbfbfb;
+  font-size: 20px;
+}
+
+.about .description p span {
+  color: #fec86a;
+}
+
+/* Skills Section Styles */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.skills h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 2.5vh;
+}
+
+.skill-card {
+  height: 20vw;
+  width: 20vw;
+  min-width: 200px;
+  max-width: 250px;
+  background-color: #3d3e42;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vh;
+  margin: 20px;
+  transition: all ease 0.5s;
+}
+
+.skill-card:hover {
+  background-color: #fec86a;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 5px rgba(254, 200, 106, 0.7);
+}
+
+.skill-card img {
+  height: 7.5vw;
+  width: 7.5vw;
+  object-fit: contain;
+}
+
+.skill-card h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fbfbfb;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+}
+
+.portfolio h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+}
+
+.portfolio-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 50px;
+  gap: 2.5vh;
+}
+
+.portfolio-card {
+  position: relative;
+  height: 30vw;
+  width: 30vw;
+  background-color: #3d3e42;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vh;
+  transition: all ease 0.5s;
+}
+
+.portfolio-card img {
+  position: relative;
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+}
+
+.portfolio-card .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+  height: 30vw;
+  width: 30vw;
+  background-color: #34353ba2;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.portfolio-card .overlay h3 {
+  color: #fbfbfb;
+  font-size: 24px;
+}
+
+.portfolio-card .overlay p {
+  color: #fbfbfb;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portfolio-card .overlay button {
+  height: 36px;
+  width: 108px;
+  background-color: #fec86a;
+  border: 1px solid #fec86a;
+  border-radius: 8px;
+  color: #34353b;
+  font-size: 12px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
+.portfolio-card .overlay:hover {
+  opacity: 1;
+}
+
+.portfolio-button {
+  background-color: #fec86a;
+  color: #34353b;
+  border: 1px solid #fec86a;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.portfolio-button:hover {
+  background-color: #cc9e4e;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 5px rgba(254, 200, 106, 0.7);
+}
+
+/* Experience Section Styles */
+.experience {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.darker-div {
+  background-color: #34353a;
+  width: 100vw;
+  height: 10vh;
+}
+
+.experience h1 {
+  position: absolute;
+  color: #fbfbfb;
+  font-size: 56px;
+  font-family: "Libre Baskerville", serif;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
+}
+
+.lighter-div {
+  background-color: #3d3e42;
+  width: 100vw;
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.exp {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.exp h2 {
+  color: #fbfbfb;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+}
+
+.exp h2::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: #fec86a;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: -40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px #fec86a;
+}
+
+.exp-desc {
+  color: #fbfbfb;
+  font-size: 16px;
+}
+
+/* Contact Me Section Styles */
+.contact-me {
+  width: 100vw;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me h1 {
+  font-size: 56px;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
+
+.contact {
+  display: flex;
+  gap: 24px;
+}
+
+.contact-card {
+  background-color: #fec86a;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  margin-top: 7.5vh;
+}
+
+/* Interactive Effects */
+.contact-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 5px rgba(254, 200, 106, 0.7);
+} 
+
+  

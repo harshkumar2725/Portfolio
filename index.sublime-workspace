@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"start",
+				"startGame"
+			],
+			[
+				"co",
+				"correctQuestionIndex"
+			],
+			[
+				"s",
+				"showQuestion"
+			],
+			[
+				"sho",
+				"shuffledQuestions"
+			],
+			[
+				"se",
+				"setnextQuestion"
+			],
+			[
+				"set",
+				"setnextQuestion"
+			],
+			[
+				"ques",
+				"questionContainerElement"
+			],
+			[
+				"q",
+				"question"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"ans",
+				"answerButtonsElement"
+			],
+			[
+				"a",
+				"answers"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"Status",
+				"setStatusClass"
+			],
+			[
+				"src",
+				"source"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"grid-tep",
+				"grid-template-columns"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"-",
+				"--hue-wrong"
+			],
+			[
+				"--",
+				"--hue-neutral"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"pad",
+				"padding-block"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ri",
+				"inherit"
+			],
+			[
+				"r",
+				"stretch"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"h",
+				"h5"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"LI",
+				"link"
+			],
+			[
+				"red",
+				"indianred"
+			],
+			[
+				"whi",
+				"whitesmoke"
+			],
+			[
+				"ye",
+				"greenyellow"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"lin",
+				"linear-gradient()"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"cen",
+				"border-block-end-color"
+			],
+			[
+				"wid",
+				"border-width"
+			],
+			[
+				"ca",
+				"calculator"
+			],
+			[
+				"sty",
+				"transform-style"
+			],
+			[
+				"vi",
+				"video"
+			],
+			[
+				"ht",
+				"html\thtml"
+			],
+			[
+				"hea",
+				"head"
+			],
+			[
+				"htt",
+				"https"
+			],
+			[
+				"blue",
+				"lightskyblue"
+			],
+			[
+				"bl",
+				"blanchedalmond"
+			],
+			[
+				"ligh",
+				"lightgoldenrodyellow"
+			],
+			[
+				"b",
+				"black"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"white",
+				"navajowhite"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"g",
+				"grey"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pas",
+				"Password"
+			],
+			[
+				"htm",
+				"html\thtml"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"ti",
+				"title"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gitadd",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"insata",
+				"Package Control: Install Package"
+			],
+			[
+				"install package con",
+				"Package Control: Install Package"
+			],
+			[
+				"JAVA",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ig_harsh/Desktop/Projects/script.js",
+		"/C/Users/ig_harsh/Desktop/Projects/style.css",
+		"/C/Users/ig_harsh/Desktop/Projects/index.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/responsicve form/index.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/responsicve form/try.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/responsicve form/style.css",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/responsicve form/styling.css",
+		"/C/Users/ig_harsh/Desktop/try/style.css",
+		"/C/Users/ig_harsh/Desktop/try/try.html",
+		"/C/Users/ig_harsh/Desktop/contact/index.html",
+		"/C/Users/ig_harsh/Desktop/contact/style.css",
+		"/C/Users/ig_harsh/Desktop/java with dsa/Main.java",
+		"/C/Users/ig_harsh/Desktop/025.html",
+		"/C/Users/ig_harsh/Desktop/74878.css",
+		"/C/Users/ig_harsh/Desktop/Front-end Projects/NavBar/style.css",
+		"/C/Users/ig_harsh/Desktop/Front-end Projects/NavBar/45.html",
+		"/C/Users/ig_harsh/Desktop/Front-end Projects/animated responsive site/style.css",
+		"/C/Users/ig_harsh/Desktop/Front-end Projects/animated responsive site/html.html",
+		"/C/Users/ig_harsh/Desktop/Front-end Projects/NavBar/55.css",
+		"/E/Weather-Dashboard-development/src/styles/style.css",
+		"/E/Weather-Dashboard-development/src/index.html",
+		"/C/Users/ig_harsh/Desktop/quiz/Main.java",
+		"/C/Users/ig_harsh/AppData/Roaming/Sublime Text/Packages/User/JavaRunner.sublime-build",
+		"/C/Users/ig_harsh/Desktop/quiz/style.css",
+		"/C/Users/ig_harsh/Desktop/quiz/html.html",
+		"/C/Users/ig_harsh/Desktop/quiz/1.js",
+		"/C/Users/ig_harsh/Desktop/array_traversing.html",
+		"/C/Users/ig_harsh/Desktop/clone site/danger.html",
+		"/C/Users/ig_harsh/Desktop/clone site/danger.css",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/Form/02.css",
+		"/C/Users/ig_harsh/Desktop/button.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/Form/01.sublime-workspace",
+		"/C/Users/ig_harsh/Desktop/fixed simple landing page.html",
+		"/C/Users/ig_harsh/Desktop/style.css",
+		"/F/downloads/#07 Personal Portfolio Website Using html and css only/pol-3/tets..html",
+		"/F/downloads/#07 Personal Portfolio Website Using html and css only/pol-3/index.html",
+		"/C/Users/ig_harsh/Desktop/PORTOFOLIO/desgin.css",
+		"/C/Users/ig_harsh/Desktop/PORTOFOLIO/portfolio.html",
+		"/C/Users/ig_harsh/Desktop/script.js",
+		"/C/Users/ig_harsh/Desktop/css.css",
+		"/C/Users/ig_harsh/Desktop/7488.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/calculator.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/index.js",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/style.css",
+		"/C/Users/ig_harsh/Desktop/New folder/trying new thing.html",
+		"/C/Users/ig_harsh/Desktop/New folder/style2.css",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/responsicve form/sites.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/responsicve form/html.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/responsicve form/html0.html",
+		"/C/Users/ig_harsh/Desktop/Harsh Projects/Html/survey form testingggggggggg.sublime-workspace",
+		"/C/Users/ig_harsh/Desktop/bootstrap beginning.html",
+		"/C/Users/ig_harsh/Desktop/Html/site1.html",
+		"/C/Users/ig_harsh/Desktop/site.html",
+		"/C/Users/ig_harsh/Desktop/testinghh.html",
+		"/C/Users/ig_harsh/Desktop/Form/01.html",
+		"/C/Users/ig_harsh/Desktop/Form/02.css",
+		"/C/Users/ig_harsh/Desktop/Html/clone.css",
+		"/C/Users/ig_harsh/Desktop/Html/clone.html",
+		"/C/Users/ig_harsh/Desktop/Html/2.html",
+		"/C/Users/ig_harsh/Desktop/Html/01.html",
+		"/C/Program Files/Sublime Text/harsh",
+		"/C/Program Files/Sublime Text/sublimetexteditor.html",
+		"/C/Program Files/Sublime Text/testing  the css in html",
+		"/C/Users/ig_harsh/Desktop/heheehehehheheheheee.html",
+		"/C/Users/ig_harsh/Desktop/testing.html",
+		"/C/Users/ig_harsh/Desktop/titlr.html",
+		"/C/Users/ig_harsh/Desktop/survey form testingggggggggg.html",
+		"/C/Users/ig_harsh/Desktop/Test",
+		"/C/Users/ig_harsh/AppData/Roaming/Sublime Text/Packages/User/runjavacode",
+		"/C/Users/ig_harsh/Desktop/on.class"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/JavaRunner.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
